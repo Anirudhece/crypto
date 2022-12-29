@@ -1,0 +1,93 @@
+.SliderSizesContainer{
+  padding-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  .SliderSizesContainer--wrapper{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 30px;
+    &:hover{
+      border: 1px solid white;
+      .SliderSizesContainer---text{
+        color:white
+      }
+    }
+    .SliderSizesContainer---text{
+      margin-left: 15px;
+      margin-right: 15px;
+      font-style: italic;
+      color: grey;
+      font-size: 18px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+    }
+    .SliderSizesContainer---box{
+      display: flex;
+      align-items: center;
+    }
+
+
+  }
+}
+.horizontalContainer{
+  width: 85%;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: grey;
+  height: 10%;
+  flex-direction:row ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgb(34,37,49);
+  img{
+    width: 40px;
+    margin: 10px;
+  }
+  div{
+      margin: 10px;
+      justify-content: space-between;
+      text-align: center;
+      width: 70px;
+      font-size: 15px;
+      text-transform: uppercase;
+      &:hover{
+        cursor: pointer;
+      }
+
+  }
+  .horizontalContainer--coinName{
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+  }
+  .horizontalContainer--symbol{
+    font-size: 17px;
+    color: white;
+  }
+
+  .horizontalContainer--current_price{
+    width: 150px;
+  }
+  .horizontalContainer--high_24h{
+    width: 100px;
+  }
+  .horizontalContainer--low_24h{
+    width: 100px;
+  }
+  .horizontalContainer--total_volume{
+    width: 150px;
+  }
+  &:hover{
+    background-color: rgb(23,25,36);
+    cursor:pointer;
+  }
+}
