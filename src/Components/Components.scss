@@ -28,5 +28,18 @@
 .mainContainer{
   background-color: rgb(18, 18, 18);
   // background-color:black;
-  
+}
+.message{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    display: none;
+    
+  }
+  .message{
+    padding: 50px;
+    text-align: center;
+    display: block;
+  }
 }
