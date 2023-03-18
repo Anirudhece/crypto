@@ -30,7 +30,13 @@ export default function Main() {
 	}
 
 	return (
-		<>
+		<>	
+			<div className="message">
+				<div>
+				  Please open this page on a wider screen (e.g. computer) for the best
+				  experience.
+				</div>
+      			</div>
 			<div className="mainContainer">
 				<div className="mainContainer--line"></div>
 				<SliderSizes dataFromSlider={handleDataFromSlider} />
